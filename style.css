@@ -1,0 +1,112 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(244, 244, 249);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-container {
+    width: 60%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.main-container h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+#IdText {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 5px;
+}
+
+#IdSubmit {
+    width: 15%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(92, 184, 92);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#IdSubmit:hover {
+    background-color: green;
+}
+
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    padding: 12px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.table th {
+    background-color: rgb(242, 242, 242);
+    color: rgb(0, 0, 0);
+}
+
+
+.table tr:hover {
+    background-color: rgb(241, 241, 241);
+}
+
+#IdStatus{
+    background-color: blueviolet;
+}
+#IdStatus:hover{
+    background-color: rgb(32, 2, 59) ;
+}
+#IdUpdate{
+    background-color: rgb(39, 199, 39);
+}
+#IdUpdate:hover{
+    background-color: rgb(7, 90, 7);
+}
+#IdDelete{
+    background-color: rgb(238, 73, 73);
+}
+
+#IdDelete:hover{
+    background-color: rgb(249, 0, 0);
+}
+.table button {
+    padding: 6px 12px;
+    margin: 5px;
+    
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
